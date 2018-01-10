@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<!--
+     Name:         Chris Beaudoin
+     Project1:     Designing Web Page
+     Purpose:	   Home Page for video store
+     URL:          http://unixweb.kutztown.edu/~cbeau738/Project/Phase2/homePage.html
+     Course:       CSC 242 - Spring 2017
+     Due Date:     Feb. 27, 2017
+     Other:        Embedded style sheet used by this page homePage.html
+		               External style sheet styles.css
+     Extra Credit: When checking data any feild that has incorrect data will be turned red on submit.
+                   Will turn back to white if corrected upon hitting submit again or clear.
+-->
+
+<html>
+   <head>
+      <title>Video Store</title>
+	  <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style type="text/css">
+      table{width: 100%;}
+      td{width: 33%;}
+      p{color:#2E2E2E;}
+    </style>
+   </head>
+   <body>
+     <table id="layout">
+       <tr>
+         <td style="text-align:left"><img src="../Images/Movie-Reel.png" alt="movie reel"/></td>
+         <th class="title">Gus's Video</th>
+         <td style="text-align:right"><img src="../Images/Movie-Reel.png" alt="movie reel"/></td>
+       </tr>
+       <tr>
+         <th><h2><a href="homePage.php">Home</a></h2></th>
+         <th><h2><a href="searchP.php">Search Invetory</a></h2></th>
+         <th><h2><a href="login.php">Logout</a></h2></th>
+       </tr>
+     </table>
+     <table>
+       	<tr>
+          <th><a href="passwordP.php">Reset Password</a></th>
+          <th><a href="aemployeeP.php">Create Employee</a><th>
+          <th><a href="movieP.php">Create Movie</a></th>
+          <th><a href="diskP.php">Create Disk</a></th>
+          <th><a href="supplierP.php">Create Supplier</a></th>
+          <th><a href="recordP.php">Create Purchase Record</a></th>
+          <th><a href="report.php">Generate Stock Report</a></th>
+ 	      </tr>
+    </table>
+    <table>
+        <tr>
+          <th><a href="vEmpP.php">View Employee</a></th>
+          <th><a href="vMovieP.php">View Movie</a></th>
+          <th><a href="vDiskP.php">View Disk</a></th>
+          <th><a href="vSupplierP.php">View Supplier</a></th>
+          <th><a href="vRecordP.php">View Purchase Record</a></th>
+        </tr>
+     </table>
+  </body>
+</html>
